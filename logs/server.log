@@ -1,0 +1,19 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 249 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.24.233:3000/
+1:39:02 PM [vite] warning: The character ">" is not valid inside a JSX element
+36 |                <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+37 |                  <p className="text-sm text-gray-500">Search Accuracy</p>
+38 |                  <p className="mt-2 text-3xl font-bold">>95%</p>
+   |                                                         ^
+39 |                </div>
+40 |                <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx
